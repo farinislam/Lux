@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can see all the links",
+        "description": "",
+        "id": ";verify-user-can-see-all-the-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5423734101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Dell applications",
+            "match": {
+              "location": "stepdef.open_Dell_applications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3359522600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Mouse hover services options",
+            "match": {
+              "location": "stepdef.mouse_hover_services_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7955255999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click view all services",
+            "match": {
+              "location": "stepdef.click_view_all_services()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "cosco.feature"
+  }
+]
